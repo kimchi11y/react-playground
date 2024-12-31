@@ -12,6 +12,7 @@ function CountButton() {
     <div className='flex flex-row justify-center items-center'>
       <button onClick={increment} className='bg-red-600 p-2 text-white'>+</button>
         <span className='text-xl font-bold'>{number}</span>
+        <p>Write here to continue...</p>
       
     </div>
   )
